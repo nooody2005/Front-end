@@ -231,7 +231,7 @@ header .container nav>ul>li:hover::before{
 
 .mega-menu-container {
     position: absolute;  /* absolute بالنسبة للـ header */
-    top: 102%;
+    top: 101%;
     left: 50px;
     width: 100vw;
     display: none;
@@ -252,7 +252,11 @@ header .container nav>ul>li:hover::before{
     box-sizing: border-box;
     gap: 200px;
 }
-
+/* problem --> mega menu disappear As soon as hover in out of li outline   */
+/* حتى لو مجرد م اجي اختار لينك منها بتكون اختفت اصلا  */
+/* .mega-menu .container:hover{
+    display: block;
+} */
 .mega-menu .image {
    padding-top:20px;
 }
