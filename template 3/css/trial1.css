@@ -1304,6 +1304,8 @@ position: relative;
     font-weight: bold;
     color:#3b6bd3;
     transition: var(--main-duration);
+    /* position: relative; */
+    z-index: 2;
 }
 .pricing>.container .box a:hover{
     background-color: #3b6bd3;
